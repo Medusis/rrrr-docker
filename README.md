@@ -28,4 +28,8 @@ Prepare it
 
 The output of the last command is a file named `timetable.dat` that is used by rrrr to run queries.
 
-Then you can run `./testerrrr --from-idx=1 --to-idx=2 -v -a -D 2014-01-01T00:00:00 -T timetable.dat`. If you get a trip out of that command it means the thing's working!
+Then you can run
+
+    ./testerrrr --from-idx=1 --to-idx=2 -v -a -D 2014-01-01T00:00:00 -T timetable.dat
+
+If you get a trip out of that command it means the thing's working!
